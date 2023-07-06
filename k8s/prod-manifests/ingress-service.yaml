@@ -19,10 +19,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - posthub--env--.20.232.177.220.nip.io
+      - posthub--env--.13.92.28.21.nip.io
       secretName: posthub--env---sec
   rules:
-  - host: posthub--env--.20.232.177.220.nip.io
+  - host: posthub--env--.13.92.28.21.nip.io
     http:
       paths:
       - path: /api/posthub
