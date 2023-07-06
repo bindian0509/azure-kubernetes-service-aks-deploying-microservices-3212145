@@ -1,6 +1,6 @@
 # Create a resource group and location variable
 
-resource_group=aks-rg
+resource_group=labs-bverma-use-RG
 location=eastus
 
 # For our virtual network, let’s define the following variables
@@ -54,5 +54,5 @@ az aks create -g $resource_group -n $aks_cluster_name --vm-set-type VirtualMachi
 az aks get-credentials --resource-group $resource_group --name $aks_cluster_name
 
 
-# Confirm number of nodes and successful deployment of AKS 
+# Confirm number of nodes and successful deployment of AKS
 kubectl get nodes
